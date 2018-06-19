@@ -1,0 +1,42 @@
+.NavBar {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    height: 100px;
+}
+
+.NavBar .Container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.NavBar .Logo {
+    color: red;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.NavBar .NavMenu{
+    list-style: none;
+    
+}
+
+.NavBar .NavMenu li {
+    display: inline-block;
+    margin: 0 20px
+    
+}
+
+.NavBar .NavMenu li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}

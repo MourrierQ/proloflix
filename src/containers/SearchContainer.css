@@ -1,0 +1,30 @@
+.SearchArea *{
+    font-weight: 300;
+}
+
+.SearchArea form{
+    display: flex;
+}
+
+.SearchArea form input[type="text"]{
+    width: 500px;
+    border: none;
+    border-bottom: 3px solid #ccc;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 300;
+    color: white; 
+    margin-right: 20px;
+    outline: none;
+}
+
+.SearchArea form input[type="submit"]{
+    background-color: #E50914;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
