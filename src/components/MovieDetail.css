@@ -1,0 +1,48 @@
+.MovieDetail{
+    width: 80%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 3fr .5fr;
+    grid-gap: 10px;
+}
+
+.Header{
+    grid-column: 1
+    
+}
+
+.Poster{
+    grid-column : 1;
+    grid-row-start: 2;
+    grid-row-end: -1;
+    height:100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain; 
+} 
+
+.Plot{
+    grid-column: 2;
+    grid-row : 2;
+    width: 100%;
+    font-size: 20px;;
+}
+
+.Btn{
+    grid-column: 2;
+    grid-row: 3;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 300 !important;
+    color: #fff;
+    background-color: red;
+    vertical-align: bottom;
+}
+
+.Btn:hover{
+    cursor: pointer;
+}

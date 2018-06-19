@@ -1,0 +1,50 @@
+.MovieListItem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    height: 100px;
+    width: 100%;
+
+    margin: 30px 0;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #ccc;
+
+    align-items: center;
+}
+
+.MovieListItem *{
+    font-weight: 300;
+}
+
+.Title {
+    font-size: 20px;
+}
+
+.Released{
+    font-size: 20px;
+}
+
+.Poster {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left; 
+    height: 100px;
+}
+
+.Btn {
+    width: 80%;
+    height: 80%;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+
+    background-color: transparent;
+    color: #fff;
+    transition: all .2s ease-out;
+}
+
+.Btn:hover{
+    cursor: pointer;
+    color: red;
+    border: 2px solid red;
+}
