@@ -19,7 +19,9 @@ const MovieListItem = props => {
       <h1 className={classes.Title}>{data.Title}</h1>
       <h2 className={classes.Released}>{data.Year}</h2>
       {/* <button className={classes.Btn}>Details</button> */}
-      <Link to={`/movie/${data.imdbID}`}>Details</Link>
+      <Link className={classes.Btn} to={`/movie/${data.imdbID}`}>
+        Details
+      </Link>
     </div>
   );
 };

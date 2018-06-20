@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 import classes from "./MovieDetail.css";
@@ -41,13 +42,16 @@ class MovieDetail extends Component {
 
     return (
       <div className={classes.MovieDetail}>
-        <div className="Header">
+        <div className={classes.Header}>
           <h1>{data.Title}</h1>
           <h2>{data.Released}</h2>
+          <Link className={classes.GoBackBtn} to="/">
+            Go Back
+          </Link>
         </div>
         <div className={classes.Poster} style={style} />
         <p className={classes.Plot}>{data.Plot}</p>
-        <button className={classes.Btn}>Order</button>
+        <button className={classes.Btn}>Add To Cart</button>
       </div>
     );
   }

@@ -13,13 +13,12 @@
     background-color: transparent;
     font-size: 20px;
     font-weight: 300;
-    color: white; 
     margin-right: 20px;
     outline: none;
 }
 
 .SearchArea form input[type="submit"]{
-    background-color: #E50914;
+    background-color: #DB202C;
     color: white;
     font-size: 20px;
     font-weight: 300;
@@ -29,6 +28,6 @@
     padding: 10px;
 }
 
-.SearchArea form input[type="submit"] :hover{
+.SearchArea form input[type="submit"]:hover{
     cursor: pointer;
 }

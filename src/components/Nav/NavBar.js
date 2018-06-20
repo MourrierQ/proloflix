@@ -6,7 +6,10 @@ export default class NavBar extends Component {
     return (
       <div className={classes.NavBar}>
         <div className={classes.Container}>
-          <h1 className={classes.Logo}>ProloFlix</h1>
+          <h1 className={classes.Logo}>
+            Prolo<span>Flix</span>
+          </h1>
+          <div className={classes.LogoDeco} />
           <ul className={classes.NavMenu}>
             <li>
               <a href="">Register</a>
